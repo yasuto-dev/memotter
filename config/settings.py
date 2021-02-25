@@ -2,11 +2,6 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-ROOT_DIR = os.path.dirname(BASE_DIR)
-
-TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
-
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 SECRET_KEY = '&0j%xa3p@mbir_m03kg*9j9mqri^q#_vmv+=8^n&xs09p&td-1'
 
