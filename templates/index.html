@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<head>
+    {{ form.media }}
+</head>
+    <div class="container-fluid">
+        <h2><b>メモッター</b></h2>
+        <ul>
+            <li><b>あなたがメモしたいことをのせてください。</b></li>
+            <li><b>記事をコピペでかまいません。</b></li>
+        </ul>
+        <hr>
+<!-- Template -->
+<form action="" method="POST">{% csrf_token %}
+    {{ form.content }}
+    <button type="submit" class="btn btn-primary btn-block mt-1">Create</button>
+
+</form>
+
+ 
+    </div>
+{% endblock %}
