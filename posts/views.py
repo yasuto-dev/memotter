@@ -4,8 +4,7 @@ from django.views.generic import ListView, UpdateView, DetailView, FormView, Cre
 from .forms import QuillFieldForm, QuillPostForm
 from .models import QuillPost
 
-INITIAL_IMG = 'https://raw.githubusercontent.com/LeeHanYeong/django-quill-editor/' \
-              'master/_assets/django-quill-editor-sample.png'
+INITIAL_IMG = 'https://picsum.photos/300/200'
 
 
 class QuillPostListView(ListView):
