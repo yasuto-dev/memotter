@@ -9,7 +9,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-ADMIN_USERNAME = 'lhy'
+ADMIN_USERNAME = 'admin'
 ADMIN_PASSWORD = 'pbkdf2_sha256$180000$nMNyyIvw0TgW$BWgVFXrb25VY7+QVURr4/QawrSTbHIksIYzoC3rWyRc='
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
